@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Cykl życia aktywności</string>
+    <string name="Activity0_title" >AKTYWNOŚĆ 1</string>
+    <string name="Activity1_title" >AKTYWNOŚĆ 2</string>
+    <string name="A0_intro" >Aktywnosc0: </string>
+    <string name="A1_intro" >Aktywnosc1: </string>
+    <string name="onCreateMsg" >Create</string>
+    <string name="onStartMsg" >Start</string>
+    <string name="onResumeMsg" >Resume</string>
+    <string name="onPauseMsg" >Pause</string>
+    <string name="onStopMsg" >Stop</string>
+    <string name="onDestroyMsg" >Destroy</string>
+    <string name="onRestartMsg" >Restart</string>
+
+    <string name="Activity0Button0" >Pokaż drugą</string>
+    <string name="Activity0Button1" >Zakończ drugą</string>
+    <string name="Activity0Button2" >Pełna historia</string>
+
+    <string name="Activity1Button0" >Zakończ</string>
+    <string name="Activity1Button1" >Pełna historia</string>
 </resources>
