@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_aktywnosc0"
+    android:id="@+id/activity_aktywnosc1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
@@ -10,23 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    tools:context=".Activity0">
+    tools:context=".Activity1">
 
     <TextView
-        android:id="@+id/L0_tytul"
-        android:text="@string/Activity0_title"
+        android:id="@+id/L1_tytul"
+        android:text="@string/Activity1_title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="11"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:textStyle="normal|bold"
-        tools:text="@string/Activity0_title"/>
+        android:textStyle="normal|bold" />
 
 
     <LinearLayout
-        android:id="@+id/L0_gorny"
-        android:background="#00FF00"
+        android:id="@+id/L1_gorny"
+        android:background="#0000EE"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,18 +33,17 @@
         >
 
         <EditText
-            android:id="@+id/L0_poleTekstowe"
+            android:id="@+id/L1_poleTekstowe"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="none" />
-
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/L0_dolny"
-        android:background="#000FFF"
+        android:id="@+id/L1_dolny"
+        android:background="#DD0000"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="10"
@@ -53,27 +51,20 @@
         android:gravity="center_vertical">
 
         <Button
-            android:id="@+id/L0_przycisk0"
+            android:id="@+id/L1_przycisk0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/Activity0Button0"
-            android:onClick="A0Button0Click"/>
+            android:text="@string/Activity1Button0"
+            android:onClick="A1Button0Click"/>
 
         <Button
-            android:id="@+id/L0_przycisk1"
+            android:id="@+id/L1_przycisk1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/Activity0Button1"
-            android:onClick="A0Button1Click"/>
+            android:text="@string/Activity1Button1"
+            android:onClick="A1Button1Click"/>
 
-        <Button
-            android:id="@+id/L0_przycisk2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/Activity0Button2"
-            android:onClick="A0Button2Click"/>
     </LinearLayout>
 </LinearLayout>

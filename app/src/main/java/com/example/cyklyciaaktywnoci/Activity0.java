@@ -14,7 +14,7 @@ public class Activity0 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity0);
         Aplikacja.aktywnosc0 = this;
-        poleTekstowe = (EditText) findViewById(R.id.L0_poleTekstowe);
+        poleTekstowe = findViewById(R.id.L0_poleTekstowe);
         String msg = getString(R.string.A0_intro);
         msg += getString(R.string.onCreateMsg);
         msg += '\n';

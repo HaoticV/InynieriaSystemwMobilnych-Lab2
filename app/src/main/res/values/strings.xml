@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Cykl życia aktywności</string>
-    <string name="Activity0_title" >AKTYWNOŚĆ 1</string>
-    <string name="Activity1_title" >AKTYWNOŚĆ 2</string>
-    <string name="A0_intro" >Aktywnosc0: </string>
-    <string name="A1_intro" >Aktywnosc1: </string>
+    <string name="Activity0_title" >AKTYWNOŚĆ 0</string>
+    <string name="Activity1_title" >AKTYWNOŚĆ 1</string>
+    <string name="A0_intro" >Activity0: </string>
+    <string name="A1_intro" >Activity1: </string>
     <string name="onCreateMsg" >Create</string>
     <string name="onStartMsg" >Start</string>
     <string name="onResumeMsg" >Resume</string>

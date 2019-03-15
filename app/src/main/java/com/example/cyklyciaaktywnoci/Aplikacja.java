@@ -24,11 +24,11 @@ public class Aplikacja extends Application {
         napis1 += s;
     }
 
-    public static String zwrocNapis0(String s) {
+    public static String zwrocNapis0() {
         return napis0;
     }
 
-    public static String zwrocNapis1(String s) {
+    public static String zwrocNapis1() {
         return napis1;
     }
 
